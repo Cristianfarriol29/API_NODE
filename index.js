@@ -37,7 +37,7 @@ extended: false,
 
 // Config de Proxies + CORS -> Meter vuestros dominios ej: http://minicodelab.dev
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:8081', 'http://localhost:8080', "http://127.0.0.1:5500"],
+  origin: ['http://localhost:3000', 'http://localhost:8081', 'http://localhost:8080', "https://formula-1-api.vercel.app/"],
   credentials: true
 }));
 
